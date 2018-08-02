@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40085FDE2112967300639C5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085FDD2112967300639C5E /* AppDelegate.m */; };
+		40085FE12112967300639C5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085FE02112967300639C5E /* ViewController.m */; };
+		40085FE42112967300639C5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40085FE22112967300639C5E /* Main.storyboard */; };
+		40085FE62112967400639C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40085FE52112967400639C5E /* Assets.xcassets */; };
+		40085FE92112967400639C5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40085FE72112967400639C5E /* LaunchScreen.storyboard */; };
+		40085FEC2112967400639C5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085FEB2112967400639C5E /* main.m */; };
+		40085FF62112967400639C5E /* JS_OC_InterceptUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085FF52112967400639C5E /* JS_OC_InterceptUrlTests.m */; };
+		400860012112967400639C5E /* JS_OC_InterceptUrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400860002112967400639C5E /* JS_OC_InterceptUrlUITests.m */; };
+		4008600F2112992D00639C5E /* First.html in Resources */ = {isa = PBXBuildFile; fileRef = 4008600E2112992D00639C5E /* First.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40085FF22112967400639C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40085FD12112967300639C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40085FD82112967300639C5E;
+			remoteInfo = JS_OC_InterceptUrl;
+		};
+		40085FFD2112967400639C5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40085FD12112967300639C5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40085FD82112967300639C5E;
+			remoteInfo = JS_OC_InterceptUrl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40085FD92112967300639C5E /* JS_OC_InterceptUrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JS_OC_InterceptUrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40085FDC2112967300639C5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40085FDD2112967300639C5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40085FDF2112967300639C5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40085FE02112967300639C5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40085FE32112967300639C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40085FE52112967400639C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40085FE82112967400639C5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40085FEA2112967400639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40085FEB2112967400639C5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40085FF12112967400639C5E /* JS_OC_InterceptUrlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JS_OC_InterceptUrlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40085FF52112967400639C5E /* JS_OC_InterceptUrlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OC_InterceptUrlTests.m; sourceTree = "<group>"; };
+		40085FF72112967400639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40085FFC2112967400639C5E /* JS_OC_InterceptUrlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JS_OC_InterceptUrlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		400860002112967400639C5E /* JS_OC_InterceptUrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OC_InterceptUrlUITests.m; sourceTree = "<group>"; };
+		400860022112967400639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4008600E2112992D00639C5E /* First.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = First.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40085FD62112967300639C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FEE2112967400639C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FF92112967400639C5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40085FD02112967300639C5E = {
+			isa = PBXGroup;
+			children = (
+				40085FDB2112967300639C5E /* JS_OC_InterceptUrl */,
+				40085FF42112967400639C5E /* JS_OC_InterceptUrlTests */,
+				40085FFF2112967400639C5E /* JS_OC_InterceptUrlUITests */,
+				40085FDA2112967300639C5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40085FDA2112967300639C5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40085FD92112967300639C5E /* JS_OC_InterceptUrl.app */,
+				40085FF12112967400639C5E /* JS_OC_InterceptUrlTests.xctest */,
+				40085FFC2112967400639C5E /* JS_OC_InterceptUrlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40085FDB2112967300639C5E /* JS_OC_InterceptUrl */ = {
+			isa = PBXGroup;
+			children = (
+				40085FDC2112967300639C5E /* AppDelegate.h */,
+				40085FDD2112967300639C5E /* AppDelegate.m */,
+				40085FDF2112967300639C5E /* ViewController.h */,
+				40085FE02112967300639C5E /* ViewController.m */,
+				4008600E2112992D00639C5E /* First.html */,
+				40085FE22112967300639C5E /* Main.storyboard */,
+				40085FE52112967400639C5E /* Assets.xcassets */,
+				40085FE72112967400639C5E /* LaunchScreen.storyboard */,
+				40085FEA2112967400639C5E /* Info.plist */,
+				40085FEB2112967400639C5E /* main.m */,
+			);
+			path = JS_OC_InterceptUrl;
+			sourceTree = "<group>";
+		};
+		40085FF42112967400639C5E /* JS_OC_InterceptUrlTests */ = {
+			isa = PBXGroup;
+			children = (
+				40085FF52112967400639C5E /* JS_OC_InterceptUrlTests.m */,
+				40085FF72112967400639C5E /* Info.plist */,
+			);
+			path = JS_OC_InterceptUrlTests;
+			sourceTree = "<group>";
+		};
+		40085FFF2112967400639C5E /* JS_OC_InterceptUrlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				400860002112967400639C5E /* JS_OC_InterceptUrlUITests.m */,
+				400860022112967400639C5E /* Info.plist */,
+			);
+			path = JS_OC_InterceptUrlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40085FD82112967300639C5E /* JS_OC_InterceptUrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400860052112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrl" */;
+			buildPhases = (
+				40085FD52112967300639C5E /* Sources */,
+				40085FD62112967300639C5E /* Frameworks */,
+				40085FD72112967300639C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JS_OC_InterceptUrl;
+			productName = JS_OC_InterceptUrl;
+			productReference = 40085FD92112967300639C5E /* JS_OC_InterceptUrl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40085FF02112967400639C5E /* JS_OC_InterceptUrlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 400860082112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrlTests" */;
+			buildPhases = (
+				40085FED2112967400639C5E /* Sources */,
+				40085FEE2112967400639C5E /* Frameworks */,
+				40085FEF2112967400639C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40085FF32112967400639C5E /* PBXTargetDependency */,
+			);
+			name = JS_OC_InterceptUrlTests;
+			productName = JS_OC_InterceptUrlTests;
+			productReference = 40085FF12112967400639C5E /* JS_OC_InterceptUrlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40085FFB2112967400639C5E /* JS_OC_InterceptUrlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4008600B2112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrlUITests" */;
+			buildPhases = (
+				40085FF82112967400639C5E /* Sources */,
+				40085FF92112967400639C5E /* Frameworks */,
+				40085FFA2112967400639C5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40085FFE2112967400639C5E /* PBXTargetDependency */,
+			);
+			name = JS_OC_InterceptUrlUITests;
+			productName = JS_OC_InterceptUrlUITests;
+			productReference = 40085FFC2112967400639C5E /* JS_OC_InterceptUrlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40085FD12112967300639C5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = cs;
+				TargetAttributes = {
+					40085FD82112967300639C5E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					40085FF02112967400639C5E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 40085FD82112967300639C5E;
+					};
+					40085FFB2112967400639C5E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 40085FD82112967300639C5E;
+					};
+				};
+			};
+			buildConfigurationList = 40085FD42112967300639C5E /* Build configuration list for PBXProject "JS_OC_InterceptUrl" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40085FD02112967300639C5E;
+			productRefGroup = 40085FDA2112967300639C5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40085FD82112967300639C5E /* JS_OC_InterceptUrl */,
+				40085FF02112967400639C5E /* JS_OC_InterceptUrlTests */,
+				40085FFB2112967400639C5E /* JS_OC_InterceptUrlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40085FD72112967300639C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40085FE92112967400639C5E /* LaunchScreen.storyboard in Resources */,
+				4008600F2112992D00639C5E /* First.html in Resources */,
+				40085FE62112967400639C5E /* Assets.xcassets in Resources */,
+				40085FE42112967300639C5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FEF2112967400639C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FFA2112967400639C5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40085FD52112967300639C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40085FE12112967300639C5E /* ViewController.m in Sources */,
+				40085FEC2112967400639C5E /* main.m in Sources */,
+				40085FDE2112967300639C5E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FED2112967400639C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40085FF62112967400639C5E /* JS_OC_InterceptUrlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40085FF82112967400639C5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400860012112967400639C5E /* JS_OC_InterceptUrlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40085FF32112967400639C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40085FD82112967300639C5E /* JS_OC_InterceptUrl */;
+			targetProxy = 40085FF22112967400639C5E /* PBXContainerItemProxy */;
+		};
+		40085FFE2112967400639C5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40085FD82112967300639C5E /* JS_OC_InterceptUrl */;
+			targetProxy = 40085FFD2112967400639C5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40085FE22112967300639C5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40085FE32112967300639C5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40085FE72112967400639C5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40085FE82112967400639C5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		400860032112967400639C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		400860042112967400639C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		400860062112967400639C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		400860072112967400639C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		400860092112967400639C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_OC_InterceptUrl.app/JS_OC_InterceptUrl";
+			};
+			name = Debug;
+		};
+		4008600A2112967400639C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_OC_InterceptUrl.app/JS_OC_InterceptUrl";
+			};
+			name = Release;
+		};
+		4008600C2112967400639C5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JS_OC_InterceptUrl;
+			};
+			name = Debug;
+		};
+		4008600D2112967400639C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2V259WG54;
+				INFOPLIST_FILE = JS_OC_InterceptUrlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JS_OC_InterceptUrl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40085FD42112967300639C5E /* Build configuration list for PBXProject "JS_OC_InterceptUrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400860032112967400639C5E /* Debug */,
+				400860042112967400639C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400860052112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400860062112967400639C5E /* Debug */,
+				400860072112967400639C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		400860082112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				400860092112967400639C5E /* Debug */,
+				4008600A2112967400639C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4008600B2112967400639C5E /* Build configuration list for PBXNativeTarget "JS_OC_InterceptUrlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4008600C2112967400639C5E /* Debug */,
+				4008600D2112967400639C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40085FD12112967300639C5E /* Project object */;
+}
