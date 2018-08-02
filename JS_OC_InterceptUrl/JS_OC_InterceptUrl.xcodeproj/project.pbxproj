@@ -16,6 +16,9 @@
 		40085FF62112967400639C5E /* JS_OC_InterceptUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40085FF52112967400639C5E /* JS_OC_InterceptUrlTests.m */; };
 		400860012112967400639C5E /* JS_OC_InterceptUrlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400860002112967400639C5E /* JS_OC_InterceptUrlUITests.m */; };
 		4008600F2112992D00639C5E /* First.html in Resources */ = {isa = PBXBuildFile; fileRef = 4008600E2112992D00639C5E /* First.html */; };
+		400860122112DC6F00639C5E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400860112112DC6F00639C5E /* FirstViewController.m */; };
+		400860152112DCD400639C5E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 400860142112DCD300639C5E /* SecondViewController.m */; };
+		400860172112E56A00639C5E /* Second.html in Resources */ = {isa = PBXBuildFile; fileRef = 400860162112E56A00639C5E /* Second.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		400860002112967400639C5E /* JS_OC_InterceptUrlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JS_OC_InterceptUrlUITests.m; sourceTree = "<group>"; };
 		400860022112967400639C5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4008600E2112992D00639C5E /* First.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = First.html; sourceTree = "<group>"; };
+		400860102112DC6F00639C5E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		400860112112DC6F00639C5E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		400860132112DCD300639C5E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		400860142112DCD300639C5E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		400860162112E56A00639C5E /* Second.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Second.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +115,12 @@
 				40085FDD2112967300639C5E /* AppDelegate.m */,
 				40085FDF2112967300639C5E /* ViewController.h */,
 				40085FE02112967300639C5E /* ViewController.m */,
+				400860102112DC6F00639C5E /* FirstViewController.h */,
+				400860112112DC6F00639C5E /* FirstViewController.m */,
 				4008600E2112992D00639C5E /* First.html */,
+				400860132112DCD300639C5E /* SecondViewController.h */,
+				400860142112DCD300639C5E /* SecondViewController.m */,
+				400860162112E56A00639C5E /* Second.html */,
 				40085FE22112967300639C5E /* Main.storyboard */,
 				40085FE52112967400639C5E /* Assets.xcassets */,
 				40085FE72112967400639C5E /* LaunchScreen.storyboard */,
@@ -242,6 +255,7 @@
 				4008600F2112992D00639C5E /* First.html in Resources */,
 				40085FE62112967400639C5E /* Assets.xcassets in Resources */,
 				40085FE42112967300639C5E /* Main.storyboard in Resources */,
+				400860172112E56A00639C5E /* Second.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400860152112DCD400639C5E /* SecondViewController.m in Sources */,
 				40085FE12112967300639C5E /* ViewController.m in Sources */,
 				40085FEC2112967400639C5E /* main.m in Sources */,
 				40085FDE2112967300639C5E /* AppDelegate.m in Sources */,
+				400860122112DC6F00639C5E /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
