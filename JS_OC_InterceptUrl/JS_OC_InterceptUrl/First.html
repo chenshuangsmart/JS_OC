@@ -4,7 +4,13 @@
         <script type="text/javascript">
             
             function showAlert(message){
-                alert(message);
+                asyncAlert(message);
+            }
+        
+            function asyncAlert(content) {
+                setTimeout(function(){
+                           alert(content);
+                           },1);
             }
         
             function loadURL(url) {
