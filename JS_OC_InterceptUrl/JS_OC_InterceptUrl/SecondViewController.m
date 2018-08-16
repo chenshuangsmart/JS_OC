@@ -58,6 +58,8 @@
         
         NSLog(@"-------End Log-------");
     };
+    
+    [context evaluateScript:@"var arr = [3, 4, 'abc'];"];
 }
 
 #pragma mark - action

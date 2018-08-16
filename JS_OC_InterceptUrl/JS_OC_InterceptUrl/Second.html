@@ -11,6 +11,16 @@
             alert(message);
         }
         
+        function showArr(){
+            asyncAlert(arr);
+        }
+        
+        function asyncAlert(content) {
+            setTimeout(function(){
+                       alert(content);
+                       },1);
+        }
+        
         </script>
     </header>
     
@@ -19,6 +29,8 @@
         <br/>
         <br/>
         <button type="button" onclick="secondClick()">Click Me!</button>
+        
+        <input type="button" value="输出arr" onclick="showArr()" />
         
     </body>
 </html>

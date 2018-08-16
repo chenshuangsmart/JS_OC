@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+            <script language="javascript">
+            var ctuapp_share_img="www.baidu.com";
+            
+            function locationClick() {
+                window.webkit.messageHandlers.Location.postMessage(null);
+            }
+                
+            function shareClick() {
+                window.webkit.messageHandlers.Share.postMessage({title:'测试分享的标题',content:'测试分享的内容',url:'http://m.rblcmall.com/share/openShare.htm?share_uuid=shdfxdfdsfsdfs&share_url=http://m.rblcmall.com/store_index_32787.htm&imagePath=http://c.hiphotos.baidu.com/image/pic/item/f3d3572c11dfa9ec78e256df60d0f703908fc12e.jpg'});
+            }
+            
+            function colorClick() {
+                window.webkit.messageHandlers.Color.postMessage([67,205,128,0.5]);
+            }
+
+            function goBack() {
+                window.webkit.messageHandlers.GoBack.postMessage(null);
+            }
+            
+            function setLocation(location) {
+                asyncAlert(location);
+                document.getElementById("returnValue").value = location;
+            }
+            
+            function shareResult(channel_id,share_channel,share_url) {
+                var content = channel_id+","+share_channel+","+share_url;
+                asyncAlert(content);
+                document.getElementById("returnValue").value = content;
+            }
+            
+            function asyncAlert(content) {
+                setTimeout(function(){
+                           alert(content);
+                           },1);
+            }
+            
+            </script>
+            </head>
+    
+    <body>
+        <h1>这是按钮调用</h1>
+        <input type="button" value="获取定位" onclick="locationClick()" />
+        <input type="button" value="分享" onclick="shareClick()" />
+        <input type="button" value="修改背景色" onclick="colorClick()" />
+        <input type="button" value="返回" onclick="goBack()" />
+        
+        <h1>这是回调结果展示区</h1>
+        <textarea id ="returnValue" type="value" rows="5" cols="40">
+        
+        </textarea>
+    </body>
+</html>
