@@ -460,7 +460,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrl";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,7 +477,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrl";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,7 +495,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrlTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_OC_InterceptUrl.app/JS_OC_InterceptUrl";
@@ -514,7 +514,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrlTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JS_OC_InterceptUrl.app/JS_OC_InterceptUrl";
@@ -532,7 +532,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrlUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = JS_OC_InterceptUrl;
@@ -550,7 +550,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "banggood.JS-OC-InterceptUrlUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "cs.JS-OC-InterceptUrlUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = JS_OC_InterceptUrl;
